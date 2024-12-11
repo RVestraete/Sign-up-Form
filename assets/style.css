@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Norse Bold';
+    src: url('Norse-Bold.otf');
+}
+
+body {
+    display:flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+.left-side {
+    background: url('lexi-laginess.jpg');
+    padding: 1rem 0;
+    margin-bottom: 30px;
+    flex: 0.6;
+    height: 110vh;
+    padding-top: 130px;
+}
+
+.side-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.side_logo_img {
+    width: 80px;
+    height: 100px;
+}
+
+.side_logo_text {
+    font-family: 'Norse Bold', sans-serif;
+    font-size: 80px;
+    color: #fff;
+}
+
+.signup {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 1.2rem;
+}
